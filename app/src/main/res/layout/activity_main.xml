@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.hp.broadcastreceiver.MainActivity">
+
+    <Button
+        android:onClick="sendBroadcasts"
+        android:text="Static Broadcast"
+        android:id="@+id/btnStaticBroadcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="sendBroadcasts"
+        android:text="Static Broadcast2"
+        android:id="@+id/btnStaticBroadcast2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="sendBroadcasts"
+        android:text="Dynamic Braodcast"
+        android:id="@+id/btnDymnamicBroadCast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="sendBroadcasts"
+        android:text="Send Broadcast"
+        android:id="@+id/btnSendBraodcast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Message Recived"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
